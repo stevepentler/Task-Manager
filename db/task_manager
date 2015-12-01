@@ -12,4 +12,16 @@ tasks:
 - id: 4
   title: Finish styling with materialize
   description: This isn't so different after all!
-total: 4
+- id: 5
+  title: Call Mommy!
+  description: Not!
+- id: 6
+  title: Call MOM!
+  description: Hi MOM!
+- id: 7
+  title: Eat a banana!
+  description: Ring Ring Ring Ring Ring Ring Banana Phone
+- id: 8
+  title: Eat a banana!
+  description: Ring Ring Ring Ring Ring Ring Banana Phone
+total: 8
