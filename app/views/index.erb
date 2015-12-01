@@ -1,9 +1,9 @@
-    <h1>All Tasks</h1>
+    <h1>all tasks</h1>
+    <hr>
 
     <% @tasks.each do |task| %>
-    <h3><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
+    <h3><%= task.id %>: <a href="/tasks/<%= task.id %>">
+      <%= task.title %></a></h3>
     <% end %>
 
-    <p><a href='/'>Home</a></p>
-  </body>
-</html>
+<i class="material-icons"> replay <a href='/'>home</a></p></i>

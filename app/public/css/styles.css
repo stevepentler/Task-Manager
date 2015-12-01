@@ -1,3 +1,80 @@
-.responsive-image{
-  max-width: 50%;
+body {
+  background-color: black;
+  font-family: 'Questrial', sans-serif;
 }
+
+h1 {
+  color: #64b5f6;
+  outline-color: white;
+  letter-spacing: 0px;
+}
+
+h2 {
+  color: #64b5f6;
+}
+
+hr {
+  max-width: 20%;
+}
+
+h3 { 
+  color: white;
+  font-size: 50px; 
+}
+
+p {
+  color: white;
+  font-size: 30px;
+}
+
+h4 {
+  color: #64b5f6;
+  text-align: center;
+}
+
+input {
+    background-color: #b2ebf2;
+    color: black;
+    max-width: 75%;
+    font-size: 20px;
+}
+
+input, select, textarea{
+  background-color: #b2ebf2;
+    color: black;
+    max-width: 75%;
+    font-size: 20px;
+}
+
+textarea:focus, input:focus {
+    color: black;
+}
+
+.material-icons {
+  color: white;
+}
+
+#return {
+  color: #64b5f6;
+}
+
+.reponsive-image {
+  max-height: 300px;
+}
+
+#blur1 {
+  opacity: .35;
+  max-height: 200px;
+}
+
+#blur2 {
+  opacity: .15;
+  max-height: 200px;
+}
+
+.btn-large {
+  background-color: #64b5f6;
+  outline-color: white;
+}
+
+

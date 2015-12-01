@@ -1,8 +1,16 @@
-<h3>New Task Form</h3>
+<h2>add a new task</h2>
+<hr>
+<img id="clear" class="reponsive-image circle" src="/images/Peak.jpg"> 
 
+<div class="container">
 <form action="/tasks" method="post">
-  <p>Enter a new task for the list:</p>
-  <p>Title: </p><input type='text' name='task[title]'/><br/>
-  <p>Task: </p><textarea name='task[description]'></textarea><br/>
-  <input type='submit'/>
+  <h4>Title: </h4><textarea name='task[title]'/></textarea><br/>
+  <h4>Task: </h4><textarea name='task[description]'></textarea><br/>
+  <input type='submit'/ >
 </form>
+</div>
+
+
+
+<i id="return" class="material-icons"> replay <a href="/tasks">TASKS</a></i>
+<i id="return" class="material-icons"> replay <a href='/'>HOME</a></i>
