@@ -6,4 +6,7 @@ tasks:
 - id: 2
   title: Eat Turkey
   description: Eat Turkey for Thanksgiving
-total: 2
+- id: 3
+  title: Learn Materialize
+  description: ''
+total: 3
