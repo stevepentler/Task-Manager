@@ -1,18 +1,9 @@
 ---
 tasks:
-- id: 4
-  title: Finish styling with materialize
-  description: This isn't so different after all!
-- id: 5
-  title: Call Mommy!
-  description: Not!
-- id: 7
-  title: Eat a banana!
-  description: Ring Ring Ring Ring Ring Ring Banana Phone
-- id: 8
-  title: Eat a banana!
-  description: Ring Ring Ring Ring Ring Ring Banana Phone
-- id: 9
-  title: Make Meatloaf!
-  description: Preheat the oven to 450 degrees
-total: 9
+- id: 1
+  title: Call Mom!!!
+  description: Mom!!! Mom!!! Mom!!! Mom!!! Mom!!! Mom!!! Mom!!!
+- id: 3
+  title: Caress Steve O's lower back
+  description: Caress!
+total: 3
