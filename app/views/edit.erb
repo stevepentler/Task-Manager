@@ -1,0 +1,17 @@
+<h2>edit a task</h2>
+<hr>
+<img id="clear" class="reponsive-image circle" src="/images/Peak.jpg"> 
+
+<div class="container">
+<form action="/tasks/<%=@task.id %>" method="post"> <!--only recognizes get and post, even though we want put, create a method -->
+  <input type="hidden" name="_method" value="put">
+  <h4>Title: </h4><textarea name='task[title]'><%= @task.title %></textarea><br/>
+  <h4>Description: </h4><textarea name='task[description]'><%= @task.description %></textarea><br/>
+  <input type='submit'/ >
+</form>
+</div>
+
+
+
+<i id="return" class="material-icons"> replay <a href="/tasks">TASKS</a></i>
+<i id="return" class="material-icons"> replay <a href='/'>HOME</a></i>

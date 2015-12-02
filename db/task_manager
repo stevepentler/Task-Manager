@@ -1,27 +1,18 @@
 ---
 tasks:
-- id: 1
-  title: Fly to Denver
-  description: Southwest
-- id: 2
-  title: Eat Turkey
-  description: Eat Turkey for Thanksgiving
-- id: 3
-  title: Learn Materialize
-  description: ''
 - id: 4
   title: Finish styling with materialize
   description: This isn't so different after all!
 - id: 5
   title: Call Mommy!
   description: Not!
-- id: 6
-  title: Call MOM!
-  description: Hi MOM!
 - id: 7
   title: Eat a banana!
   description: Ring Ring Ring Ring Ring Ring Banana Phone
 - id: 8
   title: Eat a banana!
   description: Ring Ring Ring Ring Ring Ring Banana Phone
-total: 8
+- id: 9
+  title: Make Meatloaf!
+  description: Preheat the oven to 450 degrees
+total: 9
