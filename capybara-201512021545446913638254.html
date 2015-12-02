@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--Questrial Font -->
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+    <title>Task Manager</title>
+  </head>
+
+  <body>
+    <div class="center-align">
+        <h2>add a new task</h2>
+<hr>
+<img id="clear" class="reponsive-image circle" src="/images/Peak.jpg"> 
+
+<div class="container">
+<form action="/tasks" method="post">
+  <h4>Title: </h4><textarea name='task[title]'/></textarea><br/>
+  <h4>Description: </h4><textarea name='task[description]'></textarea><br/>
+  <button <a class="btn-large waves-light" type='submit' value='submit'/>submit</a>
+</form>
+</div>
+
+<hr>
+
+<i id="return" class="material-icons"> replay <a href="/tasks">TASKS</a></i>
+<i id="return" class="material-icons"> replay <a href='/'>HOME</a></i>
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+  </body>
+</html>

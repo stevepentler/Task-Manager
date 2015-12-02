@@ -4,7 +4,8 @@
     <% @tasks.each do |task| %>
     <h3><%= task.id %>: <a href="/tasks/<%= task.id %>">
       <%= task.title %></a></h3>
-      <a href="/tasks/<%= task.id %>/edit">edit</a>
+      <a id="edit_link" href="/tasks/<%= task.id %>/edit">edit</a>
+
       <form action="/tasks/<%= task.id %>" method="post">
         <input type="hidden" name="_method" value="delete">
         <input type="submit" value="delete"> <!--button, value is what's displayed, submit is type -->

@@ -6,4 +6,13 @@ tasks:
 - id: 3
   title: Caress Steve O's lower back
   description: Caress!
-total: 3
+- id: 4
+  title: Play with small animals
+  description: capybara
+- id: 6
+  title: Steve
+  description: Pentler
+- id: 7
+  title: Steve Olson
+  description: "#1"
+total: 7
