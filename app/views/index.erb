@@ -8,7 +8,7 @@
 
       <form action="/tasks/<%= task.id %>" method="post">
         <input type="hidden" name="_method" value="delete">
-        <input type="submit" value="delete"> <!--button, value is what's displayed, submit is type -->
+        <input id="delete_task" type="submit" value="delete"> <!--button, value is what's displayed, submit is type -->
       </form> 
     <% end %>
 

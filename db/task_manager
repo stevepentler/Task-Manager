@@ -9,9 +9,6 @@ tasks:
 - id: 4
   title: Play with small animals
   description: capybara
-- id: 6
-  title: Steve
-  description: Pentler
 - id: 7
   title: Steve Olson
   description: "#1"
